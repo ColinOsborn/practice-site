@@ -41,7 +41,11 @@ class Centaur
   end
 
   def lay_down
+    !@standing
+  end
 
+  def laying?
+    !@standing
   end
 
 end
