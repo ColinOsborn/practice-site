@@ -1,37 +1,13 @@
 class Hobbit
 
-attr_reader :name, :disposition
+attr_reader :name
 
-  def initialize(name, disposition)
+  def initialize(name, disposition = nil)
     @name = name
-    @disposition = name
+    @disposition = disposition
   end
 
-  # def name
-  #   @name
-  # end
-  #
-  # def disposition
-  #   @disposition
-  # end
+  def disposition
+    
+  end
 end
-
-
-
-
-# class Hobbit
-#   attr_reader :name, :disposition
-#
-#   def initialize(name, disposition)
-#     @name = name
-#     @disposition = disposition
-#   end
-#
-#   def name
-#     @name
-#   end
-#
-#   def disposition
-#     @disposition
-#   end
-# end
