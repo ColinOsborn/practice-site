@@ -9,11 +9,9 @@ attr_reader :name,
 
   def cursed?
     if commit_heinous_act >= 3
-      return
-        true
+      return true
       else
-        return
-        false
+        return false
       end
   end
 
