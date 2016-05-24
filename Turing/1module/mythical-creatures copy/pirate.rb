@@ -5,6 +5,7 @@ attr_reader :name,
   def initialize(name, job = "Scallywag")
     @name = name
     @job = job
+    @commit_heinous_act = 0
   end
 
   def cursed?

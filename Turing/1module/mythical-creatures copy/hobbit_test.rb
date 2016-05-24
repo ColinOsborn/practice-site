@@ -1,7 +1,7 @@
 gem 'minitest', '~> 5.2'
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative 'hobbit'
+require_relative 'hobbits'
 
 class HobbitTest < Minitest::Test
   def test_it_has_a_name
@@ -20,7 +20,6 @@ class HobbitTest < Minitest::Test
   end
 
   def test_can_have_a_different_disposition
-    skip
     hobbit = Hobbit.new("Frodo", "adventurous")
     assert_equal "adventurous", hobbit.disposition
   end
